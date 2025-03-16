@@ -47,7 +47,7 @@ for filename in os.listdir(themes_directory):
         os.makedirs(output_directory, exist_ok=True)
 
         # Write the filled content to a new XML file with the same name as the YML file
-        output_filename = os.path.splitext(filename)[0] + '.xml'
+        output_filename = os.path.splitext(filename)[0] + '.rtcp'
         output_path = os.path.join(output_directory, output_filename)
 
         with open(output_path, 'w') as output_file:
