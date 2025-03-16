@@ -79,7 +79,7 @@
     },
     {
       "name": "Bright Yellow",
-      "color": "<Bcolor_12>",
+      "color": "#8A8A0F",
       "terminalMapping": "ansiBrightYellow"
     },
     {
